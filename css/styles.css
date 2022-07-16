@@ -123,8 +123,8 @@ p {
   color: var(--accent-text-color);
 }
 
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -537,15 +537,17 @@ img {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-link {
-  text-decoration: none;
-}
+
 .portfolio-title {
   margin-bottom: 4px;
   font-size: 18px;
